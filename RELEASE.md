@@ -4,6 +4,9 @@
 ## Major Features and Improvements
 
 ## Bug Fixes and Other Changes
+* Now `tft.sparse_tensor_to_dense_with_shape` accepts an optional keyword
+  argument `default_value` which is set default to `0`. 
+  `tft.sparse_tensor_to_dense_with_shape` is now comaptible with string tensor.
 
 ## Breaking changes
 
